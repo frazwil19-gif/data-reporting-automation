@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="496.34625pt" height="351.714531pt" viewBox="0 0 496.34625 351.714531" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style></defs>
+ <g id="figure_1">
+  <g id="patch_1"><path d="M 0 351.714531 L 496.34625 351.714531 L 496.34625 0 L 0 0 z" style="fill: #ffffff"/></g>
+  <g id="axes_1">
+   <g id="patch_2"><path d="M 52.75625 314.158281 L 489.14625 314.158281 L 489.14625 21.558281 L 52.75625 21.558281 z" style="fill: #ffffff"/></g>
+   <g id="PathCollection_1">
+    <g clip-path="url(#peb86e07822)">
+     <circle cx="348.337981" cy="105.674884" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="358.12251" cy="99.040691" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="368.35179" cy="92.104944" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="379.470573" cy="84.566089" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="390.144605" cy="77.328788" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="400.818637" cy="70.091487" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="411.93742" cy="67.416409" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="423.500954" cy="62.003024" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="434.174986" cy="54.084794" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="445.293769" cy="47.31928" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="455.52305" cy="43.904908" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="469.310341" cy="34.858281" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="232.702636" cy="184.07898" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="239.373906" cy="179.555667" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="246.934678" cy="174.429245" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="254.0507" cy="169.604377" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="261.166721" cy="164.77951" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="268.727493" cy="159.653088" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="276.288266" cy="156.472178" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="283.849038" cy="152.975122" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="291.409811" cy="149.147329" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="299.415335" cy="144.838022" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="307.420859" cy="141.083185" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="314.981631" cy="136.122132" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="277.177769" cy="153.923558" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="285.183292" cy="148.495582" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="293.633568" cy="142.766052" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="302.528594" cy="136.734968" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="310.978869" cy="131.005438" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="320.318647" cy="124.672799" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="329.658425" cy="122.416007" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="338.998203" cy="118.695217" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="348.337981" cy="111.667058" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="358.12251" cy="105.037729" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="368.35179" cy="101.102933" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+     <circle cx="378.581071" cy="94.39092" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+    </g>
+   </g>
+   <g id="PathCollection_2">
+    <g clip-path="url(#peb86e07822)">
+     <circle cx="259.387716" cy="184.176255" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="265.614234" cy="180.338735" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="271.840753" cy="176.627672" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="278.512023" cy="172.157861" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="285.183292" cy="168.276566" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="291.409811" cy="164.390408" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="298.525832" cy="160.742575" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="305.197102" cy="157.415751" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="311.868372" cy="152.717341" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="318.984393" cy="149.322425" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="326.100414" cy="145.849687" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="333.216435" cy="140.616263" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="170.437451" cy="239.136943" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="174.884964" cy="236.388908" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="179.777228" cy="233.368502" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="184.669493" cy="230.343233" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="189.561758" cy="227.35201" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="194.454022" cy="224.282966" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="199.791038" cy="221.530068" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="205.128054" cy="218.285928" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="210.46507" cy="214.681869" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="215.802086" cy="212.381302" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="221.583853" cy="208.981521" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="227.36562" cy="205.440691" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="201.570043" cy="219.900702" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="206.907059" cy="216.603061" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="212.244075" cy="213.261646" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="218.025842" cy="209.730543" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="223.362858" cy="206.432902" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="229.144625" cy="202.862889" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="235.371144" cy="199.531201" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="241.152911" cy="196.048737" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="247.37943" cy="192.211216" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="253.605948" cy="188.884392" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="259.832467" cy="185.557568" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+     <circle cx="266.503737" cy="181.238534" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+    </g>
+   </g>
+   <g id="PathCollection_3">
+    <g clip-path="url(#peb86e07822)">
+     <circle cx="125.962318" cy="268.465522" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="130.854583" cy="265.522937" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="136.191599" cy="262.259342" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="141.528614" cy="259.623174" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="147.310382" cy="256.753545" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="153.092149" cy="253.285672" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="158.873916" cy="249.594065" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="165.100435" cy="245.848956" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="171.326953" cy="242.103847" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="177.998223" cy="238.091231" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="184.669493" cy="235.323741" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="191.340763" cy="231.529995" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="72.592159" cy="300.858281" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="76.15017" cy="298.698764" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="79.70818" cy="296.539247" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="83.710942" cy="294.525643" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="87.268953" cy="292.66768" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="91.271715" cy="290.255246" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="95.274477" cy="287.847676" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="99.72199" cy="285.172598" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="104.169503" cy="282.497521" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="108.617016" cy="279.817579" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="113.06453" cy="277.988799" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="117.956794" cy="275.08026" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="99.277239" cy="284.661902" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="103.724752" cy="281.962505" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="108.172265" cy="279.263108" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="113.06453" cy="276.874994" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="117.956794" cy="274.20478" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="122.849059" cy="271.262194" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="128.186075" cy="268.052101" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="133.523091" cy="264.842008" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="138.860107" cy="261.631914" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="144.641874" cy="258.154313" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="150.423641" cy="255.737016" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+     <circle cx="156.650159" cy="252.147548" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+    </g>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1"><g id="line2d_1"><defs><path id="m85e54ed0cb" d="M 0 0 L 0 3.5" style="stroke: #000000; stroke-width: 0.8"/></defs><g><use xlink:href="#m85e54ed0cb" x="134.857345" y="314.158281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_1"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="134.857345" y="328.756719">£40k</text></g></g>
+    <g id="xtick_2"><g id="line2d_2"><g><use xlink:href="#m85e54ed0cb" x="223.80761" y="314.158281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_2"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="223.80761" y="328.756719">£60k</text></g></g>
+    <g id="xtick_3"><g id="line2d_3"><g><use xlink:href="#m85e54ed0cb" x="312.757875" y="314.158281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_3"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="312.757875" y="328.756719">£80k</text></g></g>
+    <g id="xtick_4"><g id="line2d_4"><g><use xlink:href="#m85e54ed0cb" x="401.70814" y="314.158281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_4"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="401.70814" y="328.756719">£100k</text></g></g>
+    <g id="text_5"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="270.95125" y="342.434844">Monthly Revenue</text></g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1"><g id="line2d_5"><defs><path id="m19487ff0d6" d="M 0 0 L -3.5 0" style="stroke: #000000; stroke-width: 0.8"/></defs><g><use xlink:href="#m19487ff0d6" x="52.75625" y="273.76704" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_6"><text style="font-size: 10px; font-family: sans-serif; text-anchor: end" x="45.75625" y="277.566258">£20k</text></g></g>
+    <g id="ytick_2"><g id="line2d_6"><g><use xlink:href="#m19487ff0d6" x="52.75625" y="225.129263" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_7"><text style="font-size: 10px; font-family: sans-serif; text-anchor: end" x="45.75625" y="228.928482">£30k</text></g></g>
+    <g id="ytick_3"><g id="line2d_7"><g><use xlink:href="#m19487ff0d6" x="52.75625" y="176.491487" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_8"><text style="font-size: 10px; font-family: sans-serif; text-anchor: end" x="45.75625" y="180.290705">£40k</text></g></g>
+    <g id="ytick_4"><g id="line2d_8"><g><use xlink:href="#m19487ff0d6" x="52.75625" y="127.85371" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_9"><text style="font-size: 10px; font-family: sans-serif; text-anchor: end" x="45.75625" y="131.652929">£50k</text></g></g>
+    <g id="ytick_5"><g id="line2d_9"><g><use xlink:href="#m19487ff0d6" x="52.75625" y="79.215933" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_10"><text style="font-size: 10px; font-family: sans-serif; text-anchor: end" x="45.75625" y="83.015152">£60k</text></g></g>
+    <g id="ytick_6"><g id="line2d_10"><g><use xlink:href="#m19487ff0d6" x="52.75625" y="30.578157" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_11"><text style="font-size: 10px; font-family: sans-serif; text-anchor: end" x="45.75625" y="34.377376">£70k</text></g></g>
+    <g id="text_12"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="14.798438" y="167.858281" transform="rotate(-90 14.798438 167.858281)">Gross Profit</text></g>
+   </g>
+   <g id="patch_3"><path d="M 52.75625 314.158281 L 52.75625 21.558281" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/></g>
+   <g id="patch_4"><path d="M 489.14625 314.158281 L 489.14625 21.558281" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/></g>
+   <g id="patch_5"><path d="M 52.75625 314.158281 L 489.14625 314.158281" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/></g>
+   <g id="patch_6"><path d="M 52.75625 21.558281 L 489.14625 21.558281" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/></g>
+   <g id="text_13"><text style="font-size: 11px; font-family: sans-serif; text-anchor: middle" x="270.95125" y="15.558281">Revenue vs Gross Profit by Product (Synthetic Demo)</text></g>
+   <g id="legend_1">
+    <g id="patch_7"><path d="M 59.05625 68.389219 L 169.539687 68.389219 Q 171.339687 68.389219 171.339687 66.589219 L 171.339687 27.858281 Q 171.339687 26.058281 169.539687 26.058281 L 59.05625 26.058281 Q 57.25625 26.058281 57.25625 27.858281 L 57.25625 66.589219 Q 57.25625 68.389219 59.05625 68.389219 z" style="fill: #ffffff; opacity: 0.8; stroke: #cccccc; stroke-linejoin: miter"/></g>
+    <circle cx="69.85625" cy="34.134375" r="3.5" style="fill: #1976d2; fill-opacity: 0.75; stroke: #1976d2; stroke-opacity: 0.75"/>
+    <text style="font-size: 9px; font-family: sans-serif; text-anchor: start" x="86.05625" y="36.496875">Analytics Platform</text>
+    <circle cx="69.85625" cy="47.344687" r="3.5" style="fill: #388e3c; fill-opacity: 0.75; stroke: #388e3c; stroke-opacity: 0.75"/>
+    <text style="font-size: 9px; font-family: sans-serif; text-anchor: start" x="86.05625" y="49.707187">Risk Engine</text>
+    <circle cx="69.85625" cy="60.555" r="3.5" style="fill: #f57c00; fill-opacity: 0.75; stroke: #f57c00; stroke-opacity: 0.75"/>
+    <text style="font-size: 9px; font-family: sans-serif; text-anchor: start" x="86.05625" y="62.9175">Data API</text>
+   </g>
+  </g>
+ </g>
+ <defs><clipPath id="peb86e07822"><rect x="52.75625" y="21.558281" width="436.39" height="292.6"/></clipPath></defs>
+</svg>
