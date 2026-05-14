@@ -1,6 +1,26 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
+dist/
+build/
 .env
+venv/
 .venv/
-outputs/*.csv
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated outputs
+reports/charts/
+reports/*.csv
+reports/monthly_management_report.md
+
+# OS
 .DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
