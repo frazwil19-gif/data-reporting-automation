@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="640.810625pt" height="280.116406pt" viewBox="0 0 640.810625 280.116406" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator><cc:Agent><dc:title>Matplotlib v3.10.9</dc:title></cc:Agent></dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 280.116406 L 640.810625 280.116406 L 640.810625 0 L 0 0 z" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 45.440625 256.238281 L 633.610625 256.238281 L 633.610625 21.558281 L 45.440625 21.558281 z" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1"><g id="line2d_1"><defs><path id="md035ac27cc" d="M 0 0 L 0 3.5" style="stroke: #000000; stroke-width: 0.8"/></defs><g><use xlink:href="#md035ac27cc" x="72.175625" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_1"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="72.175625" y="270.836719">Jan</text></g></g>
+    <g id="xtick_2"><g id="line2d_2"><g><use xlink:href="#md035ac27cc" x="120.784716" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_2"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="120.784716" y="270.836719">Feb</text></g></g>
+    <g id="xtick_3"><g id="line2d_3"><g><use xlink:href="#md035ac27cc" x="169.393807" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_3"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="169.393807" y="270.836719">Mar</text></g></g>
+    <g id="xtick_4"><g id="line2d_4"><g><use xlink:href="#md035ac27cc" x="218.002898" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_4"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="218.002898" y="270.836719">Apr</text></g></g>
+    <g id="xtick_5"><g id="line2d_5"><g><use xlink:href="#md035ac27cc" x="266.611989" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_5"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="266.611989" y="270.836719">May</text></g></g>
+    <g id="xtick_6"><g id="line2d_6"><g><use xlink:href="#md035ac27cc" x="315.22108" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_6"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="315.22108" y="270.836719">Jun</text></g></g>
+    <g id="xtick_7"><g id="line2d_7"><g><use xlink:href="#md035ac27cc" x="363.83017" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_7"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="363.83017" y="270.836719">Jul</text></g></g>
+    <g id="xtick_8"><g id="line2d_8"><g><use xlink:href="#md035ac27cc" x="412.439261" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_8"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="412.439261" y="270.836719">Aug</text></g></g>
+    <g id="xtick_9"><g id="line2d_9"><g><use xlink:href="#md035ac27cc" x="461.048352" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_9"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="461.048352" y="270.836719">Sep</text></g></g>
+    <g id="xtick_10"><g id="line2d_10"><g><use xlink:href="#md035ac27cc" x="509.657443" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_10"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="509.657443" y="270.836719">Oct</text></g></g>
+    <g id="xtick_11"><g id="line2d_11"><g><use xlink:href="#md035ac27cc" x="558.266534" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_11"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="558.266534" y="270.836719">Nov</text></g></g>
+    <g id="xtick_12"><g id="line2d_12"><g><use xlink:href="#md035ac27cc" x="606.875625" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_12"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="606.875625" y="270.836719">Dec</text></g></g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1"><g id="line2d_13"><defs><path id="m9508a7523e" d="M 0 0 L -3.5 0" style="stroke: #000000; stroke-width: 0.8"/></defs><g><use xlink:href="#m9508a7523e" x="45.440625" y="238.010987" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_13"><text style="font-size: 10px; font-family: sans-serif; text-anchor: end" x="38.440625" y="241.810205">£300k</text></g></g>
+    <g id="ytick_2"><g id="line2d_14"><g><use xlink:href="#m9508a7523e" x="45.440625" y="207.685989" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_14"><text style="font-size: 10px; font-family: sans-serif; text-anchor: end" x="38.440625" y="211.485208">£350k</text></g></g>
+    <g id="ytick_3"><g id="line2d_15"><g><use xlink:href="#m9508a7523e" x="45.440625" y="177.360992" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_15"><text style="font-size: 10px; font-family: sans-serif; text-anchor: end" x="38.440625" y="181.160211">£400k</text></g></g>
+    <g id="ytick_4"><g id="line2d_16"><g><use xlink:href="#m9508a7523e" x="45.440625" y="147.035994" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_16"><text style="font-size: 10px; font-family: sans-serif; text-anchor: end" x="38.440625" y="150.835213">£450k</text></g></g>
+    <g id="ytick_5"><g id="line2d_17"><g><use xlink:href="#m9508a7523e" x="45.440625" y="116.710997" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_17"><text style="font-size: 10px; font-family: sans-serif; text-anchor: end" x="38.440625" y="120.510216">£500k</text></g></g>
+    <g id="ytick_6"><g id="line2d_18"><g><use xlink:href="#m9508a7523e" x="45.440625" y="86.385999" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_18"><text style="font-size: 10px; font-family: sans-serif; text-anchor: end" x="38.440625" y="90.185218">£550k</text></g></g>
+    <g id="ytick_7"><g id="line2d_19"><g><use xlink:href="#m9508a7523e" x="45.440625" y="56.061002" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_19"><text style="font-size: 10px; font-family: sans-serif; text-anchor: end" x="38.440625" y="59.860221">£600k</text></g></g>
+    <g id="ytick_8"><g id="line2d_20"><g><use xlink:href="#m9508a7523e" x="45.440625" y="25.736005" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_20"><text style="font-size: 10px; font-family: sans-serif; text-anchor: end" x="38.440625" y="29.535223">£650k</text></g></g>
+   </g>
+   <g id="line2d_21"><path d="M 72.175625 123.382496 L 120.784716 116.104497 L 169.393807 108.462598 L 218.002898 100.456798 L 266.611989 92.632949 L 315.22108 84.5665 L 363.83017 76.13615 L 412.439261 67.645151 L 461.048352 59.214802 L 509.657443 50.420552 L 558.266534 41.626303 L 606.875625 32.225554" clip-path="url(#p97d3cbfcb1)" style="fill: none; stroke: #1976d2; stroke-width: 2; stroke-linecap: square"/></g>
+   <g id="line2d_22"><path d="M 72.175625 245.571009 L 120.784716 241.29761 L 169.393807 236.810117 L 218.002898 232.263793 L 266.611989 227.854539 L 315.22108 223.110496 L 363.83017 219.724407 L 412.439261 215.694821 L 461.048352 210.639037 L 509.657443 206.038129 L 558.266534 202.507086 L 606.875625 197.007345" clip-path="url(#p97d3cbfcb1)" style="fill: none; stroke: #388e3c; stroke-width: 2; stroke-linecap: square"/></g>
+   <g id="patch_3"><path d="M 45.440625 256.238281 L 45.440625 21.558281" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/></g>
+   <g id="patch_4"><path d="M 633.610625 256.238281 L 633.610625 21.558281" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/></g>
+   <g id="patch_5"><path d="M 45.440625 256.238281 L 633.610625 256.238281" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/></g>
+   <g id="patch_6"><path d="M 45.440625 21.558281 L 633.610625 21.558281" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/></g>
+   <g id="text_21"><text style="font-size: 11px; font-family: sans-serif; text-anchor: middle" x="339.525625" y="15.558281">Monthly Revenue &amp; Gross Profit — FY2025 (Synthetic Demo)</text></g>
+   <g id="legend_1">
+    <g id="patch_7"><path d="M 51.740625 55.178906 L 134.025937 55.178906 Q 134.025937 55.178906 134.025937 53.378906 L 134.025937 27.858281 Q 134.025937 26.058281 132.225937 26.058281 L 51.740625 26.058281 Q 49.940625 26.058281 49.940625 27.858281 L 49.940625 53.378906 Q 49.940625 55.178906 51.740625 55.178906 z" style="fill: #ffffff; opacity: 0.8; stroke: #cccccc; stroke-linejoin: miter"/></g>
+    <g id="line2d_23"><path d="M 53.540625 33.346875 L 71.540625 33.346875" style="fill: none; stroke: #1976d2; stroke-width: 2; stroke-linecap: square"/></g>
+    <g id="text_22"><text style="font-size: 9px; font-family: sans-serif; text-anchor: start" x="78.740625" y="36.496875">Revenue</text></g>
+    <g id="line2d_24"><path d="M 53.540625 46.557187 L 71.540625 46.557187" style="fill: none; stroke: #388e3c; stroke-width: 2; stroke-linecap: square"/></g>
+    <g id="text_23"><text style="font-size: 9px; font-family: sans-serif; text-anchor: start" x="78.740625" y="49.707187">Gross Profit</text></g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p97d3cbfcb1"><rect x="45.440625" y="21.558281" width="588.17" height="234.68"/></clipPath>
+ </defs>
+</svg>

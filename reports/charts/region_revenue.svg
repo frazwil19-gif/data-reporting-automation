@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="496.906562pt" height="280.116406pt" viewBox="0 0 496.906562 280.116406" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style></defs>
+ <g id="figure_1">
+  <g id="patch_1"><path d="M 0 280.116406 L 496.906562 280.116406 L 496.906562 0 L 0 0 z" style="fill: #ffffff"/></g>
+  <g id="axes_1">
+   <g id="patch_2"><path d="M 28.076563 256.238281 L 489.706562 256.238281 L 489.706562 21.558281 L 28.076563 21.558281 z" style="fill: #ffffff"/></g>
+   <g id="patch_3"><path d="M 28.076563 245.571009 L 336.721485 245.571009 L 336.721485 184.615164 L 28.076563 184.615164 z" clip-path="url(#p9b661104b0)" style="fill: #388e3c"/></g>
+   <g id="patch_4"><path d="M 28.076563 169.376203 L 390.249823 169.376203 L 390.249823 108.420359 L 28.076563 108.420359 z" clip-path="url(#p9b661104b0)" style="fill: #388e3c"/></g>
+   <g id="patch_5"><path d="M 28.076563 93.181398 L 467.724182 93.181398 L 467.724182 32.225554 L 28.076563 32.225554 z" clip-path="url(#p9b661104b0)" style="fill: #388e3c"/></g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1"><g id="line2d_1"><defs><path id="m179d86d718" d="M 0 0 L 0 3.5" style="stroke: #000000; stroke-width: 0.8"/></defs><g><use xlink:href="#m179d86d718" x="28.076563" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_1"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="28.076563" y="270.836719">£0k</text></g></g>
+    <g id="xtick_2"><g id="line2d_2"><g><use xlink:href="#m179d86d718" x="110.47856" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_2"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="110.47856" y="270.836719">£500k</text></g></g>
+    <g id="xtick_3"><g id="line2d_3"><g><use xlink:href="#m179d86d718" x="192.880558" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_3"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="192.880558" y="270.836719">£1000k</text></g></g>
+    <g id="xtick_4"><g id="line2d_4"><g><use xlink:href="#m179d86d718" x="275.282556" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_4"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="275.282556" y="270.836719">£1500k</text></g></g>
+    <g id="xtick_5"><g id="line2d_5"><g><use xlink:href="#m179d86d718" x="357.684554" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_5"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="357.684554" y="270.836719">£2000k</text></g></g>
+    <g id="xtick_6"><g id="line2d_6"><g><use xlink:href="#m179d86d718" x="440.086551" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_6"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="440.086551" y="270.836719">£2500k</text></g></g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1"><g id="line2d_7"><defs><path id="m46d841b4cf" d="M 0 0 L -3.5 0" style="stroke: #000000; stroke-width: 0.8"/></defs><g><use xlink:href="#m46d841b4cf" x="28.076563" y="215.093086" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_7"><text style="font-size: 10px; font-family: sans-serif; text-anchor: end" x="21.076563" y="218.892305">EU</text></g></g>
+    <g id="ytick_2"><g id="line2d_8"><g><use xlink:href="#m46d841b4cf" x="28.076563" y="138.898281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_8"><text style="font-size: 10px; font-family: sans-serif; text-anchor: end" x="21.076563" y="142.6975">US</text></g></g>
+    <g id="ytick_3"><g id="line2d_9"><g><use xlink:href="#m46d841b4cf" x="28.076563" y="62.703476" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_9"><text style="font-size: 10px; font-family: sans-serif; text-anchor: end" x="21.076563" y="66.502695">UK</text></g></g>
+   </g>
+   <g id="patch_6"><path d="M 28.076563 256.238281 L 28.076563 21.558281" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/></g>
+   <g id="patch_7"><path d="M 489.706562 256.238281 L 489.706562 21.558281" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/></g>
+   <g id="patch_8"><path d="M 28.076563 256.238281 L 489.706563 256.238281" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/></g>
+   <g id="patch_9"><path d="M 28.076563 21.558281 L 489.706563 21.558281" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/></g>
+   <g id="text_10"><text style="font-size: 11px; font-family: sans-serif; text-anchor: middle" x="258.891562" y="15.558281">Annual Revenue by Region (Synthetic Demo)</text></g>
+  </g>
+ </g>
+ <defs><clipPath id="p9b661104b0"><rect x="28.076563" y="21.558281" width="461.63" height="234.68"/></clipPath></defs>
+</svg>
