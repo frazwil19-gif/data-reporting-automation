@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="568.569375pt" height="280.116406pt" viewBox="0 0 568.569375 280.116406" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style></defs>
+ <g id="figure_1">
+  <g id="patch_1"><path d="M 0 280.116406 L 568.569375 280.116406 L 568.569375 0 L 0 0 z" style="fill: #ffffff"/></g>
+  <g id="axes_1">
+   <g id="patch_2"><path d="M 104.959375 256.238281 L 561.369375 256.238281 L 561.369375 21.558281 L 104.959375 21.558281 z" style="fill: #ffffff"/></g>
+   <g id="patch_3"><path d="M 104.959375 245.571009 L 298.981343 245.571009 L 298.981343 184.615164 L 104.959375 184.615164 z" clip-path="url(#p59fdfdd478)" style="fill: #1976d2"/></g>
+   <g id="patch_4"><path d="M 104.959375 169.376203 L 432.47788 169.376203 L 432.47788 108.420359 L 104.959375 108.420359 z" clip-path="url(#p59fdfdd478)" style="fill: #1976d2"/></g>
+   <g id="patch_5"><path d="M 104.959375 93.181398 L 539.635565 93.181398 L 539.635565 32.225554 L 104.959375 32.225554 z" clip-path="url(#p59fdfdd478)" style="fill: #1976d2"/></g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1"><g id="line2d_1"><defs><path id="m8ab4cfe6fc" d="M 0 0 L 0 3.5" style="stroke: #000000; stroke-width: 0.8"/></defs><g><use xlink:href="#m8ab4cfe6fc" x="104.959375" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_1"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="104.959375" y="270.836719">£0k</text></g></g>
+    <g id="xtick_2"><g id="line2d_2"><g><use xlink:href="#m8ab4cfe6fc" x="175.915332" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_2"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="175.915332" y="270.836719">£500k</text></g></g>
+    <g id="xtick_3"><g id="line2d_3"><g><use xlink:href="#m8ab4cfe6fc" x="246.871288" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_3"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="246.871288" y="270.836719">£1000k</text></g></g>
+    <g id="xtick_4"><g id="line2d_4"><g><use xlink:href="#m8ab4cfe6fc" x="317.827245" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_4"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="317.827245" y="270.836719">£1500k</text></g></g>
+    <g id="xtick_5"><g id="line2d_5"><g><use xlink:href="#m8ab4cfe6fc" x="388.783202" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_5"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="388.783202" y="270.836719">£2000k</text></g></g>
+    <g id="xtick_6"><g id="line2d_6"><g><use xlink:href="#m8ab4cfe6fc" x="459.739158" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_6"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="459.739158" y="270.836719">£2500k</text></g></g>
+    <g id="xtick_7"><g id="line2d_7"><g><use xlink:href="#m8ab4cfe6fc" x="530.695115" y="256.238281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_7"><text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="530.695115" y="270.836719">£3000k</text></g></g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1"><g id="line2d_8"><defs><path id="m1a88e6d71a" d="M 0 0 L -3.5 0" style="stroke: #000000; stroke-width: 0.8"/></defs><g><use xlink:href="#m1a88e6d71a" x="104.959375" y="215.093086" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_8"><text style="font-size: 10px; font-family: sans-serif; text-anchor: end" x="97.959375" y="218.892305">Data API</text></g></g>
+    <g id="ytick_2"><g id="line2d_9"><g><use xlink:href="#m1a88e6d71a" x="104.959375" y="138.898281" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_9"><text style="font-size: 10px; font-family: sans-serif; text-anchor: end" x="97.959375" y="142.6975">Risk Engine</text></g></g>
+    <g id="ytick_3"><g id="line2d_10"><g><use xlink:href="#m1a88e6d71a" x="104.959375" y="62.703476" style="stroke: #000000; stroke-width: 0.8"/></g></g><g id="text_10"><text style="font-size: 10px; font-family: sans-serif; text-anchor: end" x="97.959375" y="66.502695">Analytics Platform</text></g></g>
+   </g>
+   <g id="patch_6"><path d="M 104.959375 256.238281 L 104.959375 21.558281" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/></g>
+   <g id="patch_7"><path d="M 561.369375 256.238281 L 561.369375 21.558281" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/></g>
+   <g id="patch_8"><path d="M 104.959375 256.238281 L 561.369375 256.238281" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/></g>
+   <g id="patch_9"><path d="M 104.959375 21.558281 L 561.369375 21.558281" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/></g>
+   <g id="text_11"><text style="font-weight: 700; font-size: 9px; font-family: sans-serif; text-anchor: end; fill: #ffffff" x="295.100904" y="217.541368">Margin: 55.0%</text></g>
+   <g id="text_12"><text style="font-weight: 700; font-size: 9px; font-family: sans-serif; text-anchor: end; fill: #ffffff" x="425.92751" y="141.346563">Margin: 56.3%</text></g>
+   <g id="text_13"><text style="font-weight: 700; font-size: 9px; font-family: sans-serif; text-anchor: end; fill: #ffffff" x="530.942042" y="65.151757">Margin: 61.2%</text></g>
+   <g id="text_14"><text style="font-size: 11px; font-family: sans-serif; text-anchor: middle" x="333.164375" y="15.558281">Annual Revenue by Product (Synthetic Demo)</text></g>
+  </g>
+ </g>
+ <defs><clipPath id="p59fdfdd478"><rect x="104.959375" y="21.558281" width="456.41" height="234.68"/></clipPath></defs>
+</svg>

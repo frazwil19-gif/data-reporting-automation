@@ -43,7 +43,7 @@ A data analyst at a FinTech SaaS company is responsible for producing a monthly 
 
 ## Dataset
 
-**File:** `data/raw/monthly_saas_metrics.csv`
+**File:** `data/raw/monthly_saas_metrics.csv`  
 **Rows:** 108 (12 months × 3 products × 3 regions)
 
 | Field | Description |
@@ -65,7 +65,9 @@ A data analyst at a FinTech SaaS company is responsible for producing a monthly 
 |---|---|
 | **Total FY2024 Revenue** | **£6,728,100** |
 | Total Gross Profit | £4,036,800 |
-| Average Gross Margin | 60.0% |
+| Analytics Platform Gross Margin | ~61.3% |
+| Risk Engine Gross Margin | ~56.3% |
+| Data API Gross Margin | ~55.0% |
 | January MRR | £489,000 |
 | December MRR | £639,300 |
 | **MRR Growth (FY2024)** | **+30.7%** |
@@ -73,11 +75,11 @@ A data analyst at a FinTech SaaS company is responsible for producing a monthly 
 
 **Revenue by Product:**
 
-| Product | Annual Revenue | Share |
-|---|---|---|
-| Analytics Platform | £3,063,000 | 45.5% |
-| Risk Engine | £2,307,900 | 34.3% |
-| Data API | £1,357,200 | 20.2% |
+| Product | Annual Revenue | Share | Gross Margin |
+|---|---|---|---|
+| Analytics Platform | £3,063,000 | 45.5% | ~61.3% |
+| Risk Engine | £2,307,900 | 34.3% | ~56.3% |
+| Data API | £1,357,200 | 20.2% | ~55.0% |
 
 **Revenue by Region:**
 
@@ -86,6 +88,26 @@ A data analyst at a FinTech SaaS company is responsible for producing a monthly 
 | UK | £2,667,700 | 39.6% |
 | US | £2,187,600 | 32.5% |
 | EU | £1,872,800 | 27.8% |
+
+---
+
+## Outputs / Screenshots
+
+### Monthly Revenue & Gross Profit Trend
+
+![Monthly Revenue & Gross Profit](reports/charts/revenue_trend.svg)
+
+### Revenue vs Gross Profit by Product
+
+![Revenue vs Gross Profit Scatter](reports/charts/revenue_vs_profit.svg)
+
+### Annual Revenue by Product
+
+![Annual Revenue by Product](reports/charts/product_revenue.svg)
+
+### Annual Revenue by Region
+
+![Annual Revenue by Region](reports/charts/region_revenue.svg)
 
 ---
 
@@ -108,10 +130,10 @@ The pipeline runs six automated data quality checks before processing:
 
 | Output | Description |
 |---|---|
-| `reports/charts/revenue_trend.png` | Monthly revenue stacked by product |
-| `reports/charts/revenue_vs_profit.png` | Revenue vs gross profit trend |
-| `reports/charts/product_revenue.png` | Annual revenue by product |
-| `reports/charts/region_revenue.png` | Annual revenue by region |
+| `reports/charts/revenue_trend.svg` | Monthly revenue and gross profit trend |
+| `reports/charts/revenue_vs_profit.svg` | Revenue vs gross profit by product |
+| `reports/charts/product_revenue.svg` | Annual revenue by product |
+| `reports/charts/region_revenue.svg` | Annual revenue by region |
 | `reports/monthly_summary.csv` | Portfolio-level monthly KPIs |
 | `reports/product_summary.csv` | Annual product performance |
 | `reports/region_summary.csv` | Annual regional performance |
@@ -137,12 +159,16 @@ data-reporting-automation/
 ├── src/
 │   └── reporting_automation.py
 └── reports/
-    ├── charts/           ← generated
-    ├── monthly_summary.csv   ← generated
-    ├── product_summary.csv   ← generated
-    ├── region_summary.csv    ← generated
-    ├── annual_kpis.csv       ← generated
-    ├── monthly_management_report.md  ← generated
+    ├── charts/
+    │   ├── revenue_trend.svg
+    │   ├── revenue_vs_profit.svg
+    │   ├── product_revenue.svg
+    │   └── region_revenue.svg
+    ├── monthly_summary.csv
+    ├── product_summary.csv
+    ├── region_summary.csv
+    ├── annual_kpis.csv
+    ├── monthly_management_report.md
     └── example_report.md
 ```
 
@@ -164,8 +190,7 @@ python src/reporting_automation.py
 ## Limitations
 
 - Data is **entirely synthetic** — not real business results
-- Gross margin is consistent across products; real SaaS businesses show product-level margin differences
-- No ARR, NRR, LTV/CAC or cohort analysis — these are noted as next improvements
+- No ARR, NRR, LTV/CAC or cohort analysis — noted as next improvements
 - No database connection — pipeline reads from flat CSV; production systems would query a data warehouse
 
 ---
