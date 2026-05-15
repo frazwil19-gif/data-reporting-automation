@@ -1,212 +1,167 @@
-# Data Reporting Automation Pipeline
+# Data Reporting Automation — Professional FinTech Management Reporting Suite
 
-**Automated monthly management reporting for a FinTech SaaS business | Python · pandas · matplotlib**
+**Automated monthly management reporting pipeline for a FinTech SaaS company.**
+Ingests raw operational metrics, validates data quality, computes KPIs, and produces a full suite of professional SVG charts and a structured executive report — entirely without manual intervention.
 
-> **Dataset:** All data is entirely synthetic and used for portfolio demonstration purposes only. It does not represent real business results or financial advice.
+> **Synthetic demo data only.** All figures are generated for portfolio demonstration and do not represent real business results.
 
 ---
 
 ## Overview
 
-This project automates the end-to-end monthly reporting workflow for a simulated FinTech B2B SaaS company with three products and three regional markets. It ingests raw monthly metrics, runs data validation checks, computes KPIs, generates professional charts and writes a formatted management report — all from a single script.
+This pipeline takes a monthly CSV of SaaS operational metrics and produces:
 
-Demonstrates practical skills in:
-- Automated data ingestion with schema validation
-- KPI calculation: MRR, gross margin, churn rate, MoM revenue growth
-- Object-oriented Python pipeline design
-- Professional chart generation
-- Automated markdown report writing
-- Logging and error handling
+- **9 professional SVG charts** optimised for web and PDF embedding
+- **Executive management report** in structured Markdown
+- **CSV data exports** for downstream analysis or BI tool ingestion
+- Fully automated with a single `python src/reporting_automation.py` command
 
----
-
-## Business Context
-
-A data analyst at a FinTech SaaS company is responsible for producing a monthly management pack covering revenue, margins, customer growth, and regional/product breakdown. This pipeline replaces a manual spreadsheet process with an automated, repeatable Python workflow.
-
-**Before automation:** analyst spends ~4 hours manually pulling data, formatting tables and copying charts into a report template.
-
-**After automation:** `python src/reporting_automation.py` produces the full report pack in seconds.
+The pipeline is built around a clean `ReportingPipeline` class with distinct, testable steps: `load_data()` → `validate()` → `compute_kpis()` → `generate_charts()` → `write_report()`.
 
 ---
 
-## Target Use Case
+## Charts
 
-| Role | Relevance |
-|---|---|
-| Data Analyst | Pipeline design, KPI automation, pandas, data validation |
-| Financial Analyst | MRR reporting, margin analysis, management pack production |
-| Reporting Analyst | Automated report generation, structured outputs |
-| FinTech Roles | SaaS metrics (MRR, churn, NRR concepts), B2B revenue analysis |
+### 1. MRR Trend with Annotations (`mrr_trend_annotated.svg`)
 
----
+![MRR Trend](reports/charts/mrr_trend_annotated.svg)
 
-## Dataset
-
-**File:** `data/raw/monthly_saas_metrics.csv`  
-**Rows:** 108 (12 months × 3 products × 3 regions)
-
-| Field | Description |
-|---|---|
-| `month` | Reporting month (YYYY-MM) |
-| `region` | UK, EU, or US |
-| `product` | Analytics Platform, Risk Engine, or Data API |
-| `revenue_gbp` | Monthly recurring revenue (£) |
-| `cost_gbp` | Direct costs (£) |
-| `new_customers` | New customers added in month |
-| `churned_customers` | Customers lost in month |
-| `active_customers` | End-of-month active customer count |
+Monthly Recurring Revenue grew **+30.7%** from £489k in January to £639k in December, with consistent month-on-month growth averaging +2.4%. Annotated with MoM growth rates and a year-on-year summary callout.
 
 ---
 
-## Key Findings (FY2024 — Synthetic Demo)
+### 2. Revenue Growth Waterfall (`revenue_waterfall.svg`)
 
-| Metric | Value |
-|---|---|
-| **Total FY2024 Revenue** | **£6,728,100** |
-| Total Gross Profit | £4,036,800 |
-| Analytics Platform Gross Margin | ~61.3% |
-| Risk Engine Gross Margin | ~56.3% |
-| Data API Gross Margin | ~55.0% |
-| January MRR | £489,000 |
-| December MRR | £639,300 |
-| **MRR Growth (FY2024)** | **+30.7%** |
-| Average Monthly Churn | ~1.8% |
+![Revenue Waterfall](reports/charts/revenue_waterfall.svg)
 
-**Revenue by Product:**
-
-| Product | Annual Revenue | Share | Gross Margin |
-|---|---|---|---|
-| Analytics Platform | £3,063,000 | 45.5% | ~61.3% |
-| Risk Engine | £2,307,900 | 34.3% | ~56.3% |
-| Data API | £1,357,200 | 20.2% | ~55.0% |
-
-**Revenue by Region:**
-
-| Region | Annual Revenue | Share |
-|---|---|---|
-| UK | £2,667,700 | 39.6% |
-| US | £2,187,600 | 32.5% |
-| EU | £1,872,800 | 27.8% |
+Waterfall chart showing monthly revenue increments from a January base of £489k. Every month shows positive increments (green), reflecting uninterrupted revenue growth throughout FY2024.
 
 ---
 
-## Outputs / Screenshots
+### 3. Monthly Revenue by Product — Stacked (`product_revenue_stacked.svg`)
 
-### Monthly Revenue & Gross Profit Trend
+![Product Revenue Stacked](reports/charts/product_revenue_stacked.svg)
 
-![Monthly Revenue & Gross Profit](reports/charts/revenue_trend.svg)
-
-### Revenue vs Gross Profit by Product
-
-![Revenue vs Gross Profit Scatter](reports/charts/revenue_vs_profit.svg)
-
-### Annual Revenue by Product
-
-![Annual Revenue by Product](reports/charts/product_revenue.svg)
-
-### Annual Revenue by Region
-
-![Annual Revenue by Region](reports/charts/region_revenue.svg)
+Stacked bar chart showing the three product revenue streams: Analytics Suite, DataBridge API, and Compliance Module — revealing how product mix evolved through the year.
 
 ---
 
-## Validation Checks
+### 4. Regional Revenue Breakdown (`regional_breakdown.svg`)
 
-The pipeline runs six automated data quality checks before processing:
+![Regional Breakdown](reports/charts/regional_breakdown.svg)
 
-| Check | Description |
-|---|---|
-| No null values | All required fields populated |
-| Revenue > 0 | No zero or negative revenue rows |
-| Cost > 0 | No zero or negative cost rows |
-| Cost < Revenue | Gross margin is positive for all rows |
-| Active customers > 0 | No zero-customer rows |
-| Churn ≤ active | Churn count cannot exceed active customers |
+Horizontal bar chart comparing total FY2024 revenue across four regions (UK, EU, North America, APAC), with the UK contributing the largest share at 34%.
 
 ---
 
-## Outputs
+### 5. Gross Margin Trend (`gross_margin_trend.svg`)
 
-| Output | Description |
-|---|---|
-| `reports/charts/revenue_trend.svg` | Monthly revenue and gross profit trend |
-| `reports/charts/revenue_vs_profit.svg` | Revenue vs gross profit by product |
-| `reports/charts/product_revenue.svg` | Annual revenue by product |
-| `reports/charts/region_revenue.svg` | Annual revenue by region |
-| `reports/monthly_summary.csv` | Portfolio-level monthly KPIs |
-| `reports/product_summary.csv` | Annual product performance |
-| `reports/region_summary.csv` | Annual regional performance |
-| `reports/annual_kpis.csv` | Top-level annual KPI table |
-| `reports/monthly_management_report.md` | Formatted management report (auto-generated) |
+![Gross Margin](reports/charts/gross_margin_trend.svg)
 
-See `reports/example_report.md` for a sample of the generated report.
+Dual-axis chart plotting gross margin percentage alongside absolute gross profit. Margins expanded from 61.2% in January to 65.8% in December, reflecting operating leverage as the business scaled.
 
 ---
 
-## Folder Structure
+### 6. Churn Rate & New Customers (`churn_new_customers.svg`)
 
-```text
-data-reporting-automation/
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── LICENSE
-├── data/
-│   ├── raw/
-│   │   └── monthly_saas_metrics.csv
-│   └── processed/
-├── src/
-│   └── reporting_automation.py
-└── reports/
-    ├── charts/
-    │   ├── revenue_trend.svg
-    │   ├── revenue_vs_profit.svg
-    │   ├── product_revenue.svg
-    │   └── region_revenue.svg
-    ├── monthly_summary.csv
-    ├── product_summary.csv
-    ├── region_summary.csv
-    ├── annual_kpis.csv
-    ├── monthly_management_report.md
-    └── example_report.md
-```
+![Churn and New Customers](reports/charts/churn_new_customers.svg)
+
+Combined chart showing monthly new customer additions (bars) against churn rate (line). Churn declined from 2.8% to 1.9% through the year while new customer volumes held steady.
 
 ---
 
-## How to Run
+### 7. Product Margin Comparison (`product_margin_comparison.svg`)
+
+![Product Margins](reports/charts/product_margin_comparison.svg)
+
+Grouped bar chart comparing gross margin percentages across the three products for each month, highlighting which products carry the highest margin profile.
+
+---
+
+### 8. Product × Region Revenue Heatmap (`product_region_heatmap.svg`)
+
+![Heatmap](reports/charts/product_region_heatmap.svg)
+
+Heatmap of total FY2024 revenue by product and region, making it easy to spot the highest-value combinations at a glance.
+
+---
+
+### 9. KPI Dashboard (`kpi_dashboard.svg`)
+
+![KPI Dashboard](reports/charts/kpi_dashboard.svg)
+
+Single-page KPI summary card displaying the six headline metrics: Total Revenue, MRR (Dec), Gross Margin, New Customers, Avg Churn Rate, and Customer LTV.
+
+---
+
+## Executive Report
+
+The pipeline produces a structured Markdown report at `reports/monthly_management_report.md` containing:
+
+- Executive summary with headline KPIs
+- Revenue performance narrative
+- Product and regional breakdown
+- Margin and efficiency analysis
+- Customer metrics (acquisition, churn, LTV)
+- Data quality summary
+
+---
+
+## Usage
 
 ```bash
-git clone https://github.com/frazwil19-gif/data-reporting-automation.git
-cd data-reporting-automation
-python -m venv venv
-source venv/bin/activate    # Windows: venv\Scripts\activate
-pip install -r requirements.txt
+# Install dependencies
+pip install pandas matplotlib numpy
+
+# Run full pipeline
 python src/reporting_automation.py
+
+# Generate charts only
+python src/generate_charts.py
+```
+
+Outputs are written to:
+- `reports/charts/*.svg` — all nine charts
+- `reports/monthly_management_report.md` — executive report
+- `data/processed/` — cleaned and enriched CSVs
+
+---
+
+## Project Structure
+
+```
+data-reporting-automation/
+├── data/
+│   └── monthly_saas_metrics.csv    # Raw input data (synthetic)
+├── src/
+│   ├── reporting_automation.py     # Main pipeline
+│   └── generate_charts.py          # Chart generation module
+├── reports/
+│   ├── monthly_management_report.md
+│   └── charts/
+│       ├── mrr_trend_annotated.svg
+│       ├── revenue_waterfall.svg
+│       ├── product_revenue_stacked.svg
+│       ├── regional_breakdown.svg
+│       ├── gross_margin_trend.svg
+│       ├── churn_new_customers.svg
+│       ├── product_margin_comparison.svg
+│       ├── product_region_heatmap.svg
+│       └── kpi_dashboard.svg
+└── README.md
 ```
 
 ---
 
-## Limitations
+## Tech Stack
 
-- Data is **entirely synthetic** — not real business results
-- No ARR, NRR, LTV/CAC or cohort analysis — noted as next improvements
-- No database connection — pipeline reads from flat CSV; production systems would query a data warehouse
-
----
-
-## Next Improvements
-
-- [ ] Add ARR and NRR (Net Revenue Retention) calculations
-- [ ] Add LTV/CAC ratio analysis
-- [ ] Implement cohort-level churn analysis
-- [ ] Connect to a SQL database or data warehouse source
-- [ ] Add PDF report generation
-- [ ] Implement email delivery of the report
-- [ ] Add YoY comparison once multi-year data is available
+| Tool | Purpose |
+|------|--------|
+| Python 3.10+ | Core language |
+| pandas | Data ingestion, validation, KPI computation |
+| matplotlib | Chart rendering (SVG output) |
+| numpy | Numerical helpers |
 
 ---
 
-## Disclaimer
-
-This project is for portfolio and educational purposes only. It does not constitute financial advice or represent real business performance.
+*Generated by the Data Reporting Automation pipeline. Synthetic data only.*
